@@ -7,6 +7,7 @@
 # RULE 4:BOWLER CAN throw only in range of [0,6]
 # RULE 5:IF ONE PLAYER HITS X RUNS THEN OTHER PLAYER NEEDS X+1 RUNS TO WIN
 # RULE 6:IF BOTH PLAYERS SCORES ARE EQUAL THEN ITS A DRAW
+"NOTE :THERE ARE NO LIMITS TO NUMBER OF BALLS THAT A BOWLER CAN BOWL "
 
 import random
 player_score =0
@@ -19,9 +20,9 @@ cs=0
 ps=0
 t=["heads","tails"]
 c=["bat","ball"]
-
+print("lets play hand cricket !!!!")
 #TOSS SECTION
-player_toss=input("enter your choice heads/tails : ").lower()
+player_toss=input("enter your choice for toss heads/tails : ").lower()
 rand_toss=random.randint(0,1)
 comp_toss=random.randint(0,1)
 
